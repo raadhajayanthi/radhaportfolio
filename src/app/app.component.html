@@ -1,0 +1,610 @@
+<style>
+  .wrapper {
+    text-align: center;
+  }
+
+  .wrapper .static-txt {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+  }
+
+  .wrapper .dynamic-txts {
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+
+  .dynamic-txts li {
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+
+  @keyframes slide {
+    100% {
+      top: -360px;
+    }
+  }
+
+  .dynamic-txts li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+
+  .dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #212832;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(12) infinite;
+  }
+
+  @keyframes typing {
+
+    40%,
+    60% {
+      left: calc(100% + 0px);
+    }
+
+    100% {
+      left: 0;
+    }
+  }
+</style>
+<!-- ===============================================-->
+<!--    Main Content-->
+<!-- ===============================================-->
+<main class="main" id="top" style="color: #fff !important;background-color: #212832 !important">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top d-block" data-navbar-on-scroll="data-navbar-on-scroll"
+    style="background-color:#212832;font-color: #fff;">
+    <div class="container">
+      <a class="navbar-brand" href="">
+        <img src="assets/assets/img/radha-logo.png" width="150px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="navbar-toggler-icon"> </span></button>
+      <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
+          <li class="nav-item px-3"><a class="nav-link fw-medium" aria-current="page" href="">HOME</a></li>
+          <li class="nav-item px-3"><a class="nav-link fw-medium" aria-current="page" href="#professional">EXPERIENCES</a></li>
+          <li class="nav-item px-3"><a class="nav-link fw-medium" aria-current="page" href="#certs">CERTIFICATIONS</a></li>
+          <li class="nav-item px-3"><a class="nav-link fw-medium" aria-current="page"
+              href="#achievements">ACHIEVEMENTS</a>
+          </li>
+          <li class="nav-item px-3"><a class="nav-link fw-medium" aria-current="page" href="#awards">AWARDS</a></li>
+          
+          <li class="nav-item px-3"><a class="nav-link fw-medium" aria-current="page" href="#personal">PERSONAL</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section style="padding-top: 7rem;color: #fff !important;padding-bottom: 0px;">
+
+    <div class="container">
+      <div class="row align-items-center">
+     
+        <div class="col-md-6 order-0 order-md-1 flex-center" style="text-align: center;;">
+          <img class="pt-md-0"  style="width: 80%" src="/assets/assets/img/radha-picture.png" alt="hero-header" />
+        </div>
+        <div class="col-md-6 col-lg-6 text-md-start text-center py-6">
+          <h4 class="fw-bold text-danger mb-3" style="color: #fff !important;">Hello I'm</h4>
+
+          <h1 class="hero-title" style="color: #fff !important;">RADHA KAMESWARI JAYANTHI</h1>
+          <p class="mb-4 fw-medium">A Meta Certified Digital Marketing Associate with over 3 years of<br
+              class="d-none d-xl-block" /> expertise
+            in influencer marketing & digital content creation, having <br class="d-none d-xl-block" />
+            worked on renowned social media platforms like Instagram, Roposo, <br>Moj, and Josh.</p>
+          <div class="text-center text-md-start"> <a
+              class="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow" href="assets/assets/resume/radha-cv.pdf" [download]="fileName"
+              role="button">DOWNLOAD MY CV</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-bottom: 0px;padding-top: 0px;">
+    <div class="row">
+      <div class="col-md-6" style="padding-top: 50px;">
+        <img src="assets/assets/img/icons/heart.gif" style="height: 200px;" class="imgalign" />
+        <br>
+        <h1 style="text-align: center;">By</h1>
+        <br>
+        <h1 style="text-align: center;">1+ Million on</h1>
+      </div>
+      <div class="col-md-6">
+        <div class="position-relative pt-4 pb-6 pb-lg-8">
+          <div class="container">
+            <div class="row row-cols-md-3 row-cols-2 flex-center">
+              <div class="col">
+                <div class="card shadow-hover mb-4" style="border-radius:10px;">
+                  <div class="card-body text-center">
+                    <a href="https://share.myjosh.in/profile/21a0107f-3c56-4d9c-983c-5e2adb3c8cd5" target="_blank">
+                      <img class="img-fluid" src="/assets/assets/img/steps/josh-app-logo.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-hover mb-4" style="border-radius:10px;">
+                  <div class="card-body text-center">
+                    <a href="https://mojapp.in/@itz_raadha?referrer=SkrmF6K-HTUGyn" target="_blank">
+                      <img class="img-fluid" src="/assets/assets/img/steps/moj-logo.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-cols-md-3 row-cols-2 flex-center">
+              <div class="col">
+                <div class="card shadow-hover mb-4" style="border-radius:10px;">
+                  <div class="card-body text-center"> 
+                    <a href="https://www.roposo.com/@itz_raadha" target="_blank">
+                      <img class="img-fluid" src="/assets/assets/img/steps/roposo-app-logo.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-hover mb-4" style="border-radius:10px;">
+                  <div class="card-body text-center"> 
+                    <a>
+                      <img class="img-fluid" src="/assets/assets/img/steps/tik-tok.png"
+                      alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-bottom: 0px;padding-top: 0px;" id="certs">
+    <div class="row">
+      <div class="col-md-6" style="padding-top: 50px;">
+        <img src="assets/assets/img/certifications.gif" style="height: 200px;" class="imgalign" />
+        <br>
+        <h1 style="text-align: center;">CERTIFICATIONS</h1>
+      </div>
+      <div class="col-md-6">
+        <div class="position-relative pt-4 pb-6 pb-lg-8">
+          <div class="container">
+            <div class="row row-cols-md-2 row-cols-1 flex-center">
+              <div class="col">
+                <div class="carousel slide carousel-fade position-static" id="testimonialIndicator" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item position-relative active">
+                      <div class="card shadow" style="border-radius:10px;">
+                        <div class="card-body p-4">
+                          <img class="img-fluid" style="width: 230.2px;height: 196.43px !important;" src="/assets/assets/img/steps/born-on-crt.png" alt="alternative" />
+                        </div>
+                      </div>
+                      <div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style="border-radius:10px;transform:translate(25px, 25px);"> </div>
+                    </div>
+                    <div class="carousel-item position-relative">
+                      <div class="card shadow" style="border-radius:10px;">
+                        <div class="card-body p-4">
+                          <img class="img-fluid"  src="/assets/assets/img/steps/seow.jpg" alt="alternative" />
+                        </div>
+                      </div>
+                      <div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style="border-radius:10px;transform:translate(25px, 25px);"> </div>
+                    </div>
+                    <div class="carousel-item position-relative">
+                      <div class="card shadow" style="border-radius:10px;">
+                        <div class="card-body p-4">
+                          <img class="img-fluid"  src="/assets/assets/img/steps/smp.jpg" alt="alternative" />
+                        </div>
+                      </div>
+                      <div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style="border-radius:10px;transform:translate(25px, 25px);"> </div>
+                    </div>
+                    <div class="carousel-item position-relative">
+                      <div class="card shadow" style="border-radius:10px;">
+                        <div class="card-body p-4">
+                          <img class="img-fluid" style="width: 230.2px;height: 196.43px !important;" src="/assets/assets/img/steps/meta.png" alt="alternative" />
+                        </div>
+                      </div>
+                      <div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style="border-radius:10px;transform:translate(25px, 25px);"> </div>
+                    </div>
+                    <div class="carousel-item position-relative">
+                      <div class="card shadow" style="border-radius:10px;">
+                        <div class="card-body p-4">
+                          <img class="img-fluid"  src="/assets/assets/img/steps/ts-crt.jpg" alt="alternative" />
+                        </div>
+                      </div>
+                      <div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style="border-radius:10px;transform:translate(25px, 25px);"> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  <section style="padding-bottom: 0px;padding-top: 0px;" id="skills">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="wrapper" >
+          <h1 class="static-txt" style="text-align: center;">FUNCTIONAL SKILLS</h1>
+          <br>
+          <div class="progressBar" style="text-align: left !important;">
+            <h4>Influence Marketing</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-75"></div>
+            </div>
+          </div>
+          <div class="progressBar" style="text-align: left !important;">
+            <h4>Digital Marketing</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-70"></div>
+            </div>
+          </div>
+          <div class="progressBar" style="text-align: left !important;">
+            <h4>Project management</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-75"></div>
+            </div>
+          </div>
+          <div class="progressBar" style="text-align: left !important;">
+            <h4>Collaboration and budget management</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-70"></div>
+            </div>
+          </div>
+          <div class="progressBar" style="text-align: left !important;">
+            <h4>Basic photography and editing</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-65"></div>
+            </div>
+          </div>
+          <div class="progressBar" style="text-align: left !important;">
+            <h4>Campaign Management</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-75"></div>
+            </div>
+          </div>
+          <div class="progressBar" style="text-align: left !important;">
+            <h4>Basics of seo</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-65"></div>
+            </div>
+          </div>
+          <div class="progressBar" style="text-align: left !important;">
+            <h4>Social media marketing</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-60"></div>
+            </div>
+          </div>
+          <div class="progressBar" style="text-align: left !important;">
+            <h4>Digital content creation</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-70"></div>
+            </div>
+          </div>
+          <div class="progressBar" style="text-align: left !important;">
+            <h4>Live Streaming</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-80"></div>
+            </div>
+          </div>
+          <!-- <ul class="dynamic-txts">
+            <li><span>Influence Marketing</span></li>
+            <li><span>Digital Marketing</span></li>
+            <li><span>Audience Segmentation</span></li>
+            <li><span>Live Streaming</span></li>
+            <li><span>Content Creation</span></li>
+            <li><span>Campaign Management</span></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-bottom: 0px;padding-top: 0px;" id="skills">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="wrapper" >
+          <h1 class="static-txt" style="text-align: center;">TECHNICAL SKILLS</h1>
+          <br>
+          <div class="progressBar" style="text-align: left !important;">
+            <h4>HTML/CSS</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-70"></div>
+            </div>
+          </div>
+          <div class="progressBar" style="text-align: left !important;">
+            <h4>MySql</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-70"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements" style="padding-bottom: 0px;padding-top: 0px;">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+        <div class="col-md-6">
+          <img src="assets/assets/img/trophy.gif" style="height: 200px;margin-top: 25px;" class="imgalign" />
+          <br>
+        </div>
+          <div class="col-md-6" style="justify-content: center;">
+            <h1 style="text-align: center;">ACHIEVEMENTS</h1>
+            <br>
+            <p>1. Recognized and selected as a premier southern content creator for India's
+              inaugural Galaxy Creators Lounge, celebrating <a style="color:#3366CC" target="_blank" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODc0MzAwNTQyMTI4MTkw?story_media_id=2569537781271810294&igsh=MzRlODBiNWFlZA==">
+              Samsung’s Galaxy S21 launch
+              </a>.</p>
+            <p><span>2. Exclusively represented as the sole South Josh content creator for the
+                prominent <a style="color:#3366CC" target="_blank" href="https://mediabrief.com/josh-users-iifa-awards-with-realhai-campaign/">
+                  RealHai campaign
+                  </a>.</span></p>
+            <p>3. Appointed as the Brand Ambassador for <a style="color:#3366CC" target="_blank" href="https://www.instagram.com/demozastores?igsh=OGQ5ZDc2ODk2ZA=="> Demoza </a>Stores with outlets across
+              various regions in India.</p>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-bottom: 0px;padding-top: 0px;" id="awards">
+    <div class="container">
+      <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-6" style="padding-top: 50px;">
+        <img src="assets/assets/img/awards.gif" style="height: 200px;margin-top: 50px;" class="imgalign" />
+        <br>
+        <h1 style="text-align: center;">AWARDS</h1>
+      </div>
+      <div class="col-md-6">
+        <div class="position-relative pt-4 pb-6 pb-lg-8">
+          <div class="container">
+            <div class="row row-cols-md-3 row-cols-2 flex-center">
+              <div class="col">
+                <div class="card shadow-hover mb-4" style="border-radius:10px;">
+                  <div class="card-body text-center">
+                    <a href="https://share.myjosh.in/profile/21a0107f-3c56-4d9c-983c-5e2adb3c8cd5" target="_blank">
+                      <img class="img-fluid" src="/assets/assets/img/awards/roposo.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-hover mb-4" style="border-radius:10px;">
+                  <div class="card-body text-center">
+                    <a href="https://mojapp.in/@itz_raadha?referrer=SkrmF6K-HTUGyn" target="_blank">
+                      <img class="img-fluid" src="/assets/assets/img/awards/tik-tok.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-cols-md-3 row-cols-2 flex-center">
+              <div class="col">
+                <div class="card shadow-hover mb-4" style="border-radius:10px;">
+                  <div class="card-body text-center"> 
+                    <a href="https://www.roposo.com/@itz_raadha" target="_blank">
+                      <img class="img-fluid" src="/assets/assets/img/awards/rockstar.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-hover mb-4" style="border-radius:10px;">
+                  <div class="card-body text-center"> 
+                    <a>
+                      <img class="img-fluid" src="/assets/assets/img/awards/dia.png" alt="" />                      
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-bottom: 0px;" id="professional">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6" style="justify-content: center;">
+            <h1>PROFESSIONAL HISTORY</h1>
+            <br>
+            
+            <p><b>1. Digital Marketing & Josh Digital Content Creator | Brodeway, Zirakpur - From Nov 2021 – Present</b></p>
+            <ul>
+              <li>
+                Developed unique content for a variety of clients sites to improve presence and brand awareness.
+              </li>
+              <li>
+                Organized and analyzed data and marketing results.
+              </li>
+              <li>
+                Managed a teams of marketing professionals to ensure the success of marketing campaigns.
+              </li>
+              <li>
+                Developed social accounts and set up content calendars for new clients.
+              </li>
+              <li>
+                Interacted with online communities and promoted brand and product awareness.
+              </li>
+              <li>
+                Fostering relationships to maintain existing clients, while developing new relationships to attract potential 
+                clients with new media strategies, designed to help companies reach goals in lead generation, brand awareness and user engagement.
+              </li>
+              <li>
+                Led the company on strategy, content, and creative initiatives for fully-integrated marketing communications.
+              </li>
+              <li>
+                Successfully managed company social media accounts.
+              </li>
+            </ul>
+          
+            <p><b>2. Influencer | Instagram - From July 2017 – Present</b></p>
+            <ul>
+              <li>
+                Successfully grew Instagram following to over 400K and reached 5 million users through content.
+              </li>
+              <li>
+                Developed distinctive content and promoted brands through paid collaborations and barter arrangements.
+              </li>
+              <li>
+                Partnered with agencies for joint ventures on both Facebook and Instagram platforms.
+              </li>
+              <li>
+                Created and posted original content daily, maintaining a strict schedule.
+              </li>
+              <li>
+                Collaborated with marketing, PR, and advertising teams to drive up brand recognition and customer engagement.
+              </li>
+            </ul>
+
+            </div>
+          <div class="col-md-6">
+             <p><b>3. Digital Content Creator</b></p>
+            <ul>
+              <li>
+                Proficiency in creating engaging and relevant content across various platforms.
+              </li>
+              <li>
+                Ability to brainstorm innovative content ideas and creative solutions to engage target audience effectively.
+              </li>
+              <li>
+                Capability to analyze performance metrics to optimize content strategy, with awareness of trends and 
+                user engagement metrics.
+              </li>
+              <li>Evidence of successful collaboration with others, especially in roles like social media managers,
+                 graphic designers, and content strategists. Strong written and verbal communication skills are essential.</li>
+            </ul>
+
+            <p><b>4. Live Streaming</b></p>
+            <ul>
+              <li>
+                Responsible for program hosting and communicate face to face with the camera, proficient in interacting with the audience.
+              </li>
+            </ul>
+            <p><b>5. Software Trainee - From Apr 2019 till June 2020 | Genzeon, Hyderabad.</b></p>
+            <ul>
+              <li>
+                Gained experience in front-end development through hands-on projects.
+              </li>
+              <li>
+                Actively participated in collaborative tasks with the software development team.
+              </li>
+              <li>
+                Focused on writing clear and well-structured code for diverse training projects.
+              </li>
+              <li>
+                Engaged in knowledge-sharing sessions with different teams to facilitate learning and skill development.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section> begin ============================-->
+  <section class="pb-0 pb-lg-4" style="background-color: #000;" id="personal">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-7 col-12 mb-4 mb-md-6 mb-lg-0 order-0">
+          <img src="assets/assets/img/radha-logo.png" width="150px" />
+          <br>
+          <br>
+          <p class="fs--1 text-secondary mb-0 fw-medium">
+           <a href="https://www.adityatekkali.edu.in" target="_blank"> 
+             <img src="assets/assets/img/aitam-college-logo.png" style="height: 50px;"/>
+           </a>
+           <br>
+           <br>
+            BACHELORS
+            <br> Aditya
+            Institute of Technology and
+            Management <br> Tekkali, India
+            (2018).</p><br>
+        </div>
+        <div class="col-lg-6 col-md-4 mb-4 mb-lg-0 order-lg-2 order-md-3">
+          <h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Contact</h4>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">+91 709-568-9729</a></li>
+            <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">reach.raadha@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-7 col-12 mb-4 mb-md-6 mb-lg-0 order-0">
+          <p class="mb-0 text-secondary fs--1 fw-medium">All rights are reserved.</p>
+        </div>
+        <div class="col-lg-6 col-md-4 mb-4 mb-lg-0 order-lg-2 order-md-3">
+          <div class="icon-group mb-4">
+             <a class="text-decoration-none icon-item shadow-social" id="facebook"
+              target="_blank" href="https://www.facebook.com/raadha.jayanthi">
+              <svg class="svg-inline--fa fa-facebook-f fa-w-10" aria-hidden="true" focusable="false" data-prefix="fab"
+                data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                data-fa-i2svg="">
+                <path fill="currentColor"
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                </path>
+              </svg></a>
+            <a class="text-decoration-none icon-item shadow-social" id="instagram" target="_blank"
+              href="https://instagram.com/itz_raadha?igshid=YTQwZjQ0NmI0OA==">
+              <svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab"
+                data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                data-fa-i2svg="">
+                <path fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                </path>
+              </svg>
+            </a>
+            <a class="text-decoration-none icon-item shadow-social" id="twitter" target="_blank"
+              href="https://www.linkedin.com/in/raadha-jayanthi">
+              <svg class="svg-inline--fa fa-linkedin fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab"
+                data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                data-fa-i2svg="">
+                <switch>
+                  <g>
+                    <path fill="#0A7BBA"
+                      d="M506 256.879c0 138.066-111.934 250-250 250-138.067 0-250-111.934-250-250 0-138.067 111.933-250 250-250 138.066 0 250 111.933 250 250zm0 0">
+                    </path>
+                    <path fill="#F2F2F2"
+                      d="M405.36 276.985v103.076h-59.753v-96.157c0-24.153-8.617-40.647-30.269-40.647-16.493 0-26.308 11.119-30.638 21.869-1.588 3.83-1.98 9.161-1.98 14.558v100.378h-59.774s.805-162.873 0-179.734h59.774v25.478c-.108.196-.282.389-.392.585h.392v-.585c7.943-12.227 22.108-29.702 53.856-29.702 39.321 0 68.784 25.698 68.784 80.881zM160.452 113.698c-20.455 0-33.815 13.426-33.815 31.052 0 17.255 12.969 31.049 33.032 31.049h.37c20.846 0 33.815-13.793 33.815-31.049-.392-17.625-12.969-31.052-33.402-31.052zm-30.268 266.364h59.731V200.328h-59.731v179.734zm0 0">
+                    </path>
+                  </g>
+                </switch>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  </section>
+</main>
